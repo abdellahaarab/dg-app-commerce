@@ -5,8 +5,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import HomeScreen from './screens/HomeScreen';
 import AboutScreen from './screens/AboutScreen';
 import ItemsScreen from './screens/ItemsScreen';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import ProfileScreen from './screens/ProfileScreen';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
 // import DetailScreen from './screens/DetailScreen';
 
@@ -25,13 +25,13 @@ function App() {
 
       <Tab.Navigator
           initialRouteName="Home"
-          // tabBarOptions={{
-          //   activeTintColor: 'tomato',
-          //   inactiveTintColor: 'gray',
-          //   tabBarStyle: {
-          //     display: 'flex'
-          //   },
-          // }}
+          tabBarOptions={{
+            activeTintColor: 'tomato',
+            inactiveTintColor: 'gray',
+            tabBarStyle: {
+              display: 'flex'
+            },
+          }}
           screenOptions={screenOptions}
         >
         <Tab.Screen name="Home" component={HomeScreen} />

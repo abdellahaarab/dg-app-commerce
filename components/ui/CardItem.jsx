@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     badgeText: {
       color: 'white',
       fontSize: 12,
-      fontWeight: 400,
+      // fontWeight: 400,
     },
     image: {
       width: '100%',
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
       alignItems: 'center',
     },
     title: {
-      fontWeight: 400,
+      // fontWeight: 400,
       fontSize: 16,
       textAlign: 'center',
     },
@@ -89,6 +89,6 @@ const styles = StyleSheet.create({
     buttonText: {
       color: 'white',
       textAlign: 'center',
-      fontWeight: 400,
+      // fontWeight: 400,
     },
   });
